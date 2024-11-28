@@ -1,0 +1,22 @@
+{
+    "main": {
+      "spoofing_mode":"dynamic",
+      "spoofer_x": 10,
+      "spoofer_y": 5, 
+      "distance_threshold":30,
+      "lidar_topic":"/velodyne_points",
+      "spoofed_topic":"/cloud_spoofed",
+      "spoofing_range":80,
+      "wall_dist":15
+    },
+    "simulator": {
+        "horizontal_resolution":0.2,
+        "vertical_lines":32,
+        "spoofing_rate":0.05,
+        "minimum_distance":10.0,
+        "maximum_distance":50.0,
+        "time_cycle":7.5
+      }
+  }
+
+  
