@@ -1,10 +1,13 @@
 {
     "main": {
-      "spoofing_mode":"dynamic",
+      "input_file":"./11_15.bag",
+      "output_file":"./test.bag",
+      "spoofing_mode":"static",
       "spoofer_x": 10,
       "spoofer_y": 5, 
       "distance_threshold":30,
       "lidar_topic":"/velodyne_points",
+      "imu_topic":"/imu",
       "spoofed_topic":"/cloud_spoofed",
       "spoofing_range":80,
       "wall_dist":15
